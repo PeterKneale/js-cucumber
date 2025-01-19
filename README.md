@@ -4,7 +4,7 @@
 - https://en.wikipedia.org/wiki/Acceptance_test-driven_development
 - https://en.wikipedia.org/wiki/Behavior-driven_development
 
-```gerkin
+```cucumber
 Feature: Calculate the sum of numbers
   As a user
   I want to add numbers using a calculator
