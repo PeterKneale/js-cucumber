@@ -13,6 +13,10 @@ When('I add the number {int}', function (number) {
   calc.addNumber(number);
 });
 
+When('I press the clear button', function () {
+  calc.clear();
+});
+
 Then('the total should be {int}', function (expectedTotal) {
   const actualTotal = calc.calculate();
   assert.strictEqual(actualTotal, expectedTotal);

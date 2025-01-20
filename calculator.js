@@ -12,6 +12,9 @@ class Calculator {
       throw new Error('Only numbers are allowed');
     }
   }
+  clear() {
+    this.numbers = [];
+  }
 
   // Method to calculate the sum of all numbers
   calculate() {
