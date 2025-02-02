@@ -17,3 +17,8 @@ Feature: Calculate the sum of numbers
     And I add the number 15
     Then the total should be 30
 ```
+
+```bash
+npm install
+npm test
+```

@@ -24,4 +24,7 @@ Feature: Calculate the sum of numbers
 
   Scenario: Pressing the clear button
     When I add the number 5
-    Then the total should be 5
+    And I add the number 5
+    And I press the clear button
+    Then the total should be 0
+  
